@@ -1,0 +1,36 @@
+.fruits {
+  font-size: 40px;
+  color: blue;
+}
+
+img {
+  border: 10px solid red;
+}
+.withborder {
+  border : 10px solid blue;
+  border-radius: 25%;
+}
+
+/* rules for div element */
+/* LVHA rule             */
+div {
+  width:20px;
+  height:20px;
+  border-radius: 25%;
+  border:20px solid blue;
+  display:inline-block;
+}
+
+div:link{
+  color:blue;
+}
+div:visited{
+  color:green;
+}
+div:hover {
+  color: orange;
+  border-color: orange;
+}
+div:active{
+  color:gray;
+};

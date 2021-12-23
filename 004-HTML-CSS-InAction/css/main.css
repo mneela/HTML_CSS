@@ -1,4 +1,12 @@
 .fruits {
   font-size: 40px;
-  color: red;
+  color: blue;
+}
+
+img {
+  border: 10px solid red;
+}
+.withborder {
+  border : 10px solid blue;
+  border-radius: 25%;
 }
